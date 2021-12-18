@@ -1,0 +1,158 @@
+
+/*My styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url('images/pattern-background-mobile.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+  margin: 5vmin;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.heroImage {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.header {
+  font-weight: 900;
+  padding: 10px;
+}
+
+.container > p {
+  font-weight: 500;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 15px;
+  width: 70%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.paymentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+}
+
+.planTwo {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  font-weight: 900;
+  color: black;
+}
+
+.change {
+  padding: 15px;
+  color:  hsl(245, 75%, 52%);
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: #766cf1;
+  transition: 0.5s;
+}
+
+.buttonOne {
+  padding: 15px;
+  background-color: hsl(245, 75%, 52%);
+  width: 70%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 12px 21px hsl(224, 23%, 55%);
+}
+
+.buttonOne:hover {
+  background-color: #766cf1;
+  transition: 0.3s;
+}
+
+.buttonOne > a {
+  color: white;
+  text-decoration: none;
+}
+
+.cancel {
+  padding: 20px;
+}
+
+.cancel > a {
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+a {
+  color: hsl(223, 47%, 23%);
+}
+
+/*Comes with the thing*/
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 1440px){
+
+  html {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card {
+    margin-left: 50vmin;
+    margin-right: 50vmin;
+    margin-top: 15vmin;
+    margin-bottom: 15vmin;
+  }
+
+};
